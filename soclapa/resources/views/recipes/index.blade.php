@@ -55,7 +55,7 @@
                                 <div class="single-blog-area mb-80">
                                     <!-- Thumbnail -->
                                     <div class="blog-thumbnail">
-                                        <a href="/receptes/{{$recipe->title}}">                  
+                                        <a href="/receptes/{{$recipe->id}}">                  
                                             <img src="/storage/recipe_image/{{$recipe->recipe_image}}" alt="">
                                         </a>                                        
             
@@ -71,7 +71,7 @@
 
                                     <!-- Content -->
                                     <div class="blog-content">
-                                        <a href="/recipes/{{$recipe->id}}" class="recipe-title">
+                                        <a href="/receptes/{{$recipe->id}}" class="recipe-title">
                                             <h2>{{$recipe->title}}</h2>
                                         </a>
                                         <div class="meta-data">
